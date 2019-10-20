@@ -1,0 +1,12 @@
+version: 0.1
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.7
+  build:
+    command:
+      python --version
+artifacts:
+  files:
+    hello_world.py
